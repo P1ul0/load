@@ -99,10 +99,9 @@ animation-name: animacaoVulpix ;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  background-color: white;
-  animation-name: animacaoNinetales;
+  animation-name: animacaoCharmander;
 
-@keyframes animacaoNinetales {
+@keyframes animacaoCharmander {
   0% {
     right: 0;
   }
