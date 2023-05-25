@@ -53,16 +53,15 @@ export const ImgVulpix = styled.img`
     object-fit: contain;
 `
 
-export const DivNinetales = styled.div`
+export const DivCharmander = styled.div`
 
   position: relative;
   animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  background-color: white;
-  animation-name: animacaoNinetales;
+  animation-name: animacaoCharmander;
 
-@keyframes animacaoNinetales {
+@keyframes animacaoCharmander {
   0% {
     right: 0;
   }
@@ -88,7 +87,7 @@ export const DivNinetales = styled.div`
 
 
 `
-export const ImgNine = styled.img`
+export const ImgCharmander = styled.img`
     width: 100%;
     object-fit: contain;
 `
