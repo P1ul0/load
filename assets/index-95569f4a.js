@@ -130,4 +130,4 @@ animation-name: animacaoVulpix ;
 `,pm=Vn.img`
     width: 100%;
     object-fit: contain;
-`,hm="/assets/char-0c8e36e3.png",mm="/assets/vulpix-cded4e96.png",vm=()=>Ue.jsx(Ue.Fragment,{children:Ue.jsx(sm,{children:Ue.jsxs(am,{children:[Ue.jsx(cm,{children:Ue.jsx(fm,{src:mm})}),Ue.jsxs(dm,{children:[Ue.jsx(pm,{src:hm})," "]})]})})});function ym(){return Bt.useState(0),Ue.jsx(Ue.Fragment,{children:Ue.jsx(vm,{})})}Wi.createRoot(document.getElementById("root")).render(Ue.jsx(Lr.StrictMode,{children:Ue.jsx(ym,{})}));
+`,hm="/load/assets/char-0c8e36e3.png",mm="/load/assets/vulpix-cded4e96.png",vm=()=>Ue.jsx(Ue.Fragment,{children:Ue.jsx(sm,{children:Ue.jsxs(am,{children:[Ue.jsx(cm,{children:Ue.jsx(fm,{src:mm})}),Ue.jsxs(dm,{children:[Ue.jsx(pm,{src:hm})," "]})]})})});function ym(){return Bt.useState(0),Ue.jsx(Ue.Fragment,{children:Ue.jsx(vm,{})})}Wi.createRoot(document.getElementById("root")).render(Ue.jsx(Lr.StrictMode,{children:Ue.jsx(ym,{})}));
