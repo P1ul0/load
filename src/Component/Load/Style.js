@@ -24,27 +24,25 @@ export const DivVulpix = styled.div`
 animation-name: animacaoVulpix ;
 
 @keyframes animacaoVulpix {
-  0% {
-    left: 0;
+  0%, 100% {
+    transform: scale(1);
+    left: 0px;
   }
   25% {
     transform: scale(1.4);
-    left: 80px;
+    left: 120px;
     z-index: 1;
   }
   50% {
     transform: scale(1);
-    left: 160px;
+    left: 200px;
   }
   75% {
     transform: scale(0.4);
     left: 80px;
     z-index: 0;
   }
-  100% {
-    transform: scale(1);
-    left: 0px;
-  }
+ 
 }
 `
 export const ImgVulpix = styled.img`
@@ -62,8 +60,10 @@ export const DivCharmander = styled.div`
   animation-name: animacaoCharmander;
 
 @keyframes animacaoCharmander {
-  0% {
-    right: 0;
+  0%, 100% {
+    transform: scale(1);
+    right: 0px;
+    
   }
   25% {
     transform: scale(0.4);
@@ -79,10 +79,7 @@ export const DivCharmander = styled.div`
     right: 80px;
     z-index: 1;
   }
-  100% {
-    transform: scale(1);
-    right: 0px;
-  }
+  
 }
 
 
