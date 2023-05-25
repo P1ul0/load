@@ -54,7 +54,7 @@ export const ImgVulpix = styled.img`
 `
 
 export const DivCharmander = styled.div`
-
+  background-color : transparent;
   position: relative;
   animation-duration: 2s;
   animation-timing-function: linear;
